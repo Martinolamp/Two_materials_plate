@@ -12,7 +12,7 @@
 
 ## Table of Contents
 
-1. [Preamble] (#1-preamble)
+1. [Preamble](#1-preamble)
 2. [Objective](#2-objective)
 3. [Geometry and Material Properties](#3-geometry-and-material-properties)
 4. [Mesh and contact region simulation](#4-mesh and contacr region)
