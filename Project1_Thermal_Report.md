@@ -15,6 +15,7 @@
 1. [Preamble] (#Personal)
 2. [Objective](#1-objective)
 3. [Geometry and Material Properties](#2-geometry-and-material-properties)
+3. [Mesh and contact region simulation](#Mesh and contacr region)
 4. [Boundary Conditions](#3-boundary-conditions)
 5. [Steady-State Thermal Analysis](#4-steady-state-thermal-analysis)
 6. [Transient Thermal Analysis](#5-transient-thermal-analysis)
@@ -46,7 +47,7 @@ Two analyses were performed:
 Challenges that I was about to solve were the most exciting part of of that project since I had an occastion to learn something new.
 So the issue here was topology - to be precise shared topology.
 In multi material simulation shared topology condition is important when it comes to mesh generation.
-If you are not selecting Shared Topology option then mesh nodes do not overlap. That will result in errors in numerical solutions.
+If you are not selecting Shared Topology option then mesh nodes do not overlap. That could result in errors in numerical solutions.
 
 
 ![Steady-State Thermal - Geometry](Pictures/shared_topology.png)
@@ -55,7 +56,7 @@ If you are not selecting Shared Topology option then mesh nodes do not overlap. 
 
 | Layer | Material | Dimensions (mm) | Thickness (mm) |
 |---|---|---|---|
-| Layer 1 — bottom | Aluminium (Al) | 100 × 150 | 3 |
+| Layer 1 — bottom | Aluminium (Al) | 100 × 150 | 5 |
 | Layer 2 — top | Aluminium Oxide (Al₂O₃) | 100 × 150 | 3 |
 
 ```
@@ -64,7 +65,7 @@ If you are not selecting Shared Topology option then mesh nodes do not overlap. 
         ┌─────────────────────┐
         │     Aluminium       │  3 mm   k = 205 W/m·K
         ├─────────────────────┤  ← interface
-        │  Aluminium Oxide    │  3 mm   k = 30 W/m·K
+        │  Aluminium Oxide    │  5 mm   k = 30 W/m·K
         └─────────────────────┘
               ↑ convection
           h = 10 W/m²K, T∞ = 22°C
