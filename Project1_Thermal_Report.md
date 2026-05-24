@@ -49,7 +49,7 @@ In multi material simulation shared topology condition is important when it come
 If you are not selecting Shared Topology option then mesh nodes do not overlap. That will result in errors in numerical solutions.
 
 
-![Steady-State Thermal - Geometry](‪C:\Users\papaj\Documents\Heat_transfer_first_project\shared_topology.png)
+![Steady-State Thermal - Geometry](‪shared_topology.png)
 
 ### 2.1 Stack Geometry
 
