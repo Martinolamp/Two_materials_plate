@@ -84,7 +84,7 @@ If you are not selecting Shared Topology option then mesh nodes do not overlap. 
 
 ---
 
-## 4. Mesh and contacr region
+## 4. Mesh and contact region
 
 
 
