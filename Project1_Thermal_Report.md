@@ -12,14 +12,14 @@
 
 ## Table of Contents
 
-1. [Preamble] (#Personal)
-2. [Objective](#1-objective)
-3. [Geometry and Material Properties](#2-geometry-and-material-properties)
-3. [Mesh and contact region simulation](#Mesh and contacr region)
-4. [Boundary Conditions](#3-boundary-conditions)
-5. [Steady-State Thermal Analysis](#4-steady-state-thermal-analysis)
-6. [Transient Thermal Analysis](#5-transient-thermal-analysis)
-7. [Conclusions](#6-conclusions)
+1. [Preamble] (#1-Personal)
+2. [Objective](#2-objective)
+3. [Geometry and Material Properties](#3-geometry-and-material-properties)
+3. [Mesh and contact region simulation](#4-Mesh and contacr region)
+4. [Boundary Conditions](#5-boundary-conditions)
+5. [Steady-State Thermal Analysis](#6-steady-state-thermal-analysis)
+6. [Transient Thermal Analysis](#7-transient-thermal-analysis)
+7. [Conclusions](#8-conclusions)
 
 ---
 
