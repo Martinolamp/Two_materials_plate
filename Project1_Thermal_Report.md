@@ -41,7 +41,7 @@ Two analyses were performed:
 
 ---
 
-## 2. Geometry and Material Properties
+## 3. Geometry and Material Properties
 
 
 Challenges that I was about to solve were the most exciting part of of that project since I had an occastion to learn something new.
@@ -84,7 +84,7 @@ If you are not selecting Shared Topology option then mesh nodes do not overlap. 
 
 ---
 
-## 3. Boundary Conditions
+## 4. Boundary Conditions
 
 | Condition | Location | Value |
 |---|---|---|
@@ -95,9 +95,9 @@ If you are not selecting Shared Topology option then mesh nodes do not overlap. 
 
 ---
 
-## 4. Steady-State Thermal Analysis
+## 5. Steady-State Thermal Analysis
 
-### 4.1 Analytical Solution
+### 5.1 Analytical Solution
 
 In steady state the heat flux through each layer is constant and equal to q''. The temperature drop across each layer follows Fourier's law:
 
@@ -113,7 +113,7 @@ $$\Delta T_{Al} = \frac{1000 \times 0.003}{205} = 0.015\text{ °C}$$
 
 $$\Delta T_{Al_2O_3} = \frac{1000 \times 0.003}{30} = 0.100\text{ °C}$$
 
-### 4.2 ANSYS vs. Analytical Comparison
+### 5.2 ANSYS vs. Analytical Comparison
 
 | Quantity | Analytical | ANSYS | Error |
 |---|---|---|---|
@@ -125,9 +125,9 @@ The temperature jump at the Al / Al₂O₃ interface is clearly visible in ANSYS
 
 ---
 
-## 5. Transient Thermal Analysis
+## 6. Transient Thermal Analysis
 
-### 5.1 Governing Equation
+### 6.1 Governing Equation
 
 Applying an energy balance to the stack under the lumped capacitance assumption (Biot number Bi << 1):
 
@@ -137,7 +137,7 @@ Introducing the temperature excess $\theta(t) = T(t) - T_{ss}$ and noting that $
 
 $$\frac{d\theta}{dt} = -\frac{hA}{mc_p}\,\theta$$
 
-### 5.2 Analytical Solution
+### 6.2 Analytical Solution
 
 Separating variables and integrating:
 
@@ -149,7 +149,7 @@ Exponentiating both sides and applying the initial condition $\theta(0) = T_0 - 
 
 $$\boxed{T(t) = T_{ss} + (T_0 - T_{ss})\,e^{-t/\tau}}$$
 
-### 5.3 Time Constant τ
+### 6.3 Time Constant τ
 
 $$\tau = \frac{m c_p}{h A} = \frac{\rho\, c_p\, V}{h\, A}$$
 
@@ -160,7 +160,7 @@ $$\tau = \frac{m c_p}{h A} = \frac{\rho\, c_p\, V}{h\, A}$$
 | Convection area | A | 0.1 × 0.15 = 0.015 m² |
 | **Time constant** | **τ** | **0.1215 × 900 / (10 × 0.015) = 729 s** |
 
-### 5.4 Physical Interpretation
+### 6.4 Physical Interpretation
 
 After one time constant (t = τ = 729 s) the stack reaches **63.2%** of the way from T₀ to T_ss:
 
@@ -168,7 +168,7 @@ $$T(\tau) = 122 - 100 \cdot e^{-1} \approx 85.2\text{ °C}$$
 
 The system is considered to have reached steady-state after approximately **4τ ≈ 2916 s (~49 minutes)**. This matches the plateau behaviour observed in ANSYS.
 
-### 5.5 Validation of Lumped Capacitance Assumption
+### 6.5 Validation of Lumped Capacitance Assumption
 
 The lumped capacitance model is valid when Bi << 0.1:
 
@@ -176,7 +176,7 @@ $$Bi = \frac{h\, L_c}{k_{Al}} = \frac{10 \times 0.003}{205} = 0.000146$$
 
 Since Bi = 0.000146 << 0.1, the assumption is fully justified. The temperature gradient within the plate is negligible.
 
-### 5.6 ANSYS vs. Analytical Comparison
+### 6.6 ANSYS vs. Analytical Comparison
 
 | Quantity | Analytical | ANSYS | Agreement |
 |---|---|---|---|
@@ -187,7 +187,7 @@ Since Bi = 0.000146 << 0.1, the assumption is fully justified. The temperature g
 
 ---
 
-## 6. Conclusions
+## 7. Conclusions
 
 1. The steady-state temperature distribution agrees with the analytical Fourier solution to within 4%, confirming correct material assignment and boundary condition setup in ANSYS.
 
