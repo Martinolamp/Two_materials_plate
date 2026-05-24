@@ -15,7 +15,7 @@
 1. [Preamble](#1-preamble)
 2. [Objective](#2-objective)
 3. [Geometry and Material Properties](#3-geometry-and-material-properties)
-4. [Mesh and contact region simulation](#4-mesh and contact region simulation)
+4. [Mesh and contact region](#4-mesh and contact region)
 5. [Boundary Conditions](#5-boundary-conditions)
 6. [Steady-State Thermal Analysis](#6-steady-state-thermal-analysis)
 7. [Transient Thermal Analysis](#7-transient-thermal-analysis)
