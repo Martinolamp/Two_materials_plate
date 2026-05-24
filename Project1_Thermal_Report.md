@@ -12,14 +12,14 @@
 
 ## Table of Contents
 
-1. [Preamble] (#1-Personal)
+1. [Preamble] (#1-personal)
 2. [Objective](#2-objective)
 3. [Geometry and Material Properties](#3-geometry-and-material-properties)
-3. [Mesh and contact region simulation](#4-Mesh and contacr region)
-4. [Boundary Conditions](#5-boundary-conditions)
-5. [Steady-State Thermal Analysis](#6-steady-state-thermal-analysis)
-6. [Transient Thermal Analysis](#7-transient-thermal-analysis)
-7. [Conclusions](#8-conclusions)
+4. [Mesh and contact region simulation](#4-Mesh and contacr region)
+5. [Boundary Conditions](#5-boundary-conditions)
+6. [Steady-State Thermal Analysis](#6-steady-state-thermal-analysis)
+7. [Transient Thermal Analysis](#7-transient-thermal-analysis)
+8. [Conclusions](#8-conclusions)
 
 ---
 
@@ -84,7 +84,11 @@ If you are not selecting Shared Topology option then mesh nodes do not overlap. 
 
 ---
 
-## 4. Boundary Conditions
+## 4. Mesh and contacr region
+
+
+
+## 3. Boundary Conditions
 
 | Condition | Location | Value |
 |---|---|---|
