@@ -210,11 +210,11 @@ Since Bi = 0.000146 << 0.1, the assumption is fully justified. The temperature g
 It's interesting to note that even after substantial time the temperature profiles for steady stade simulation and transient thermal are not identical. That's what's typically obserwed when working with numerical simulations.
 
 
-Transient thermal temperature gradient
+**Transient thermal temperature gradient**
 ![Steady-State Thermal - Geometry](Pictures/Transient_time.png)
 
 
-Steady state temperature gradient
+**Steady state temperature gradient**
 ![Steady-State Thermal - Geometry](Pictures/Steady_state_temp_gradient.png)
 ---
 
