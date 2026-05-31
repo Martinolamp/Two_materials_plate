@@ -87,7 +87,13 @@ If you are not selecting Shared Topology option then mesh nodes do not overlap. 
 ## 4. Geometry mesh and contact region
 
 The model is simple so can be modeled with basic program controlled hexahedral mesh. 
+
+![Steady-State Thermal - Geometry](Pictures/Mesh_settings.png)
+
 Concact region between the two bodies is modeled as Bonded - solid to solid 
+Thermal Conductance was set to be 10000 W/m². That value is deemed to be result well-clamped metal-ceramic interface with flat surfaces.
+
+
 
 ![Steady-State Thermal - Geometry](Pictures/Contact_region.png)
 
