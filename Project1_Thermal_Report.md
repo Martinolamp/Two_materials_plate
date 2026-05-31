@@ -145,6 +145,8 @@ The temperature jump at the Al / Al₂O₃ interface is clearly visible in ANSYS
 
 ## 7. Transient Thermal Analysis
 
+Transient thermal is the model that more closely describes the phenomenon of heat transfer in real life
+
 ### 7.1 Governing Equation
 
 Applying an energy balance to the stack under the lumped capacitance assumption (Biot number Bi << 1):
@@ -203,6 +205,17 @@ Since Bi = 0.000146 << 0.1, the assumption is fully justified. The temperature g
 | Temperature at t = τ | 85.2°C | ~85°C | ✅ Excellent |
 | Biot number Bi | 0.000146 | N/A (uniform T confirmed) | ✅ Valid |
 
+### 7.7 Ansys results
+
+It's interesting to note that even after substantial time the temperature profiles for steady stade simulation and transient thermal are not identical. That's what's typically obserwed when working with numerical simulations.
+
+
+Transient thermal temperature gradient
+![Steady-State Thermal - Geometry](Pictures/Transient_time.png)
+
+
+Steady state temperature gradient
+![Steady-State Thermal - Geometry](Pictures/Steady_state_temp_gradient.png)
 ---
 
 ## 8. Conclusions
