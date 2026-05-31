@@ -110,6 +110,9 @@ Thermal Conductance was set to be 10000 W/m². That value is deemed to be result
 
 ## 6. Steady-State Thermal Analysis
 
+"Steady-state analysis is the simplest heat transfer model, assuming that the temperature distribution does not change over time (∂T/∂t = 0), meaning there is no energy accumulation within the body. In reality, a body approaches equilibrium asymptotically and never reaches it in finite time — however, steady-state analysis serves as a valid and practical first step when transient effects are negligible
+
+
 ### 6.1 Analytical Solution
 
 In steady state the heat flux through each layer is constant and equal to q''. The temperature drop across each layer follows Fourier's law:
@@ -135,6 +138,8 @@ $$\Delta T_{Al_2O_3} = \frac{1000 \times 0.003}{30} = 0.100\text{ °C}$$
 | T_ss top surface (°C) | 122.00 | 122.13 | < 0.1% |
 
 The temperature jump at the Al / Al₂O₃ interface is clearly visible in ANSYS contour plots and confirms the conductivity contrast between the two materials.
+
+![Steady-State Thermal - Geometry](Pictures/Steady_state_thermal_solution.png)
 
 ---
 
