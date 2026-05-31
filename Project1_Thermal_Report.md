@@ -216,7 +216,7 @@ It's interesting to note that even after substantial time the temperature profil
 
 **Steady state temperature gradient**
 ![Steady-State Thermal - Geometry](Pictures/Steady_state_temp_gradient.png)
----
+
 
 ## 8. Conclusions
 
