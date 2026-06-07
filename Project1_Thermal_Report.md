@@ -228,7 +228,17 @@ It's interesting to note that even after substantial time the temperature profil
 I could write a lot about how well was model validated - but that model is rather simple one, instead i will emphesize the importance of proper connection between the aluminium and ceramics. 
 The value 10000 is deemed to be very good mechanical connection , so let's try and check how wore connection conditions can affect temperature diffetence.
 
-Assuming the surface is rough.
+
+Assuming the surface is rough (Thermal conductance 3000 W/m² )
+
+**Thermal conductance - body colors (rough surface)**
+![Steady-State Thermal - Geometry](Pictures/Rough_connection.png)
+
+**Thermal conductance - temperature gradient (rough surface)**
+![Steady-State Thermal - Geometry](Pictures/Rough_temperature_connection.png)
+
+My most important conclusion to what is shown on that pictures is that if your connection between two plates - e.g. heat sing and processor is poor, then it can siginficantly worse the condition in which processor works.
+
 
 
 1. The steady-state temperature distribution agrees with the analytical Fourier solution to within 4%, confirming correct material assignment and boundary condition setup in ANSYS.
