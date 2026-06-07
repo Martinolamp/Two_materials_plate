@@ -211,11 +211,16 @@ It's interesting to note that even after substantial time the temperature profil
 
 
 **Transient thermal temperature gradient**
-![Steady-State Thermal - Geometry](Pictures/Transient_time.png)
+![Steady-State Thermal - Geometry](Pictures/Steady_state_temp_gradient.png)
 
+**Transient thermal temperature gradient - body colors**
+![Steady-State Thermal - Geometry](Pictures/Transient_thermal_temperature_gradient.png)
 
 **Steady state temperature gradient**
 ![Steady-State Thermal - Geometry](Pictures/Steady_state_temp_gradient.png)
+
+**Steady state temperature gradient - body colors**
+![Steady-State Thermal - Geometry](Pictures/steady_state_temperature_gradient_over_plate.png)
 
 
 ## 8. Conclusions
