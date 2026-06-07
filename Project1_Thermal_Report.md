@@ -217,13 +217,19 @@ It's interesting to note that even after substantial time the temperature profil
 ![Steady-State Thermal - Geometry](Pictures/Transient_thermal_temperature_gradient.png)
 
 **Steady state temperature gradient**
-![Steady-State Thermal - Geometry](Pictures/Steady_state_temp_gradient.png)
+![Steady-State Thermal - Geometry](Pictures/Transient_thermal_through_plate.png)
 
 **Steady state temperature gradient - body colors**
-![Steady-State Thermal - Geometry](Pictures/steady_state_temperature_gradient_over_plate.png)
+![Steady-State Thermal - Geometry](Pictures/Transient_thermal_temperature_gradient_over_body.png)
 
 
 ## 8. Conclusions
+
+I could write a lot about how well was model validated - but that model is rather simple one, instead i will emphesize the importance of proper connection between the aluminium and ceramics. 
+The value 10000 is deemed to be very good mechanical connection , so let's try and check how wore connection conditions can affect temperature diffetence.
+
+Assuming the surface is rough.
+
 
 1. The steady-state temperature distribution agrees with the analytical Fourier solution to within 4%, confirming correct material assignment and boundary condition setup in ANSYS.
 
